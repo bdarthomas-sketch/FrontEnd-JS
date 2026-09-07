@@ -1,0 +1,2 @@
+Este proyecto consiste en una página web Ecommerce desarrollada para Rincón del Hype, una tienda especializada en Streetwear y Sneakers originales.
+La página está estructurada utilizando HTML, CSS y JavaScript, con el objetivo de crear una experiencia de compra moderna, visual y adaptable a distintos dispositivos. El sitio permite presentar los productos de la tienda de forma organizada y está pensado para incorporar funcionalidades de comercio electrónico y gestión de productos.
