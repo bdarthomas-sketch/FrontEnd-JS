@@ -5,39 +5,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rincon Del Hype</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 
-<body style="background-color: black;color: white;">
+<body>
     <!-----------------------------NAVBAR------------------------------------------->
-    <nav>
-        <a href="."> Catalogo </a>
-        <a href="."> Encargar </a>
-        <a href="."> Sobre Nosotros </a>
-        <img src="assets/Brand/logo rdhype.png" alt="Logo de Rincon Del Hype" height="100" width="100">
+    <nav class="asd">   
+        <ul class="navbar">
+        <li> <a href="pages/catalogo.html"> Catalogo </a> </li>
+        <li> <a href="."> Encargar </a> </li>   
+        <li> <a href="."> Sobre Nosotros </a> </li>
+        <li> <a href="pages/contacto.html"> Contacto </a> </li>
+        </ul>   
     </nav>
-
-    <header>
-        <h1>Sneakers & Streetwear</h1>
-        <h2>Ropa 100% original y exclusiva</h2  > 
+<!---------------------------HERO SECTION------------------------------------------------>
+    <header class="herosection">
+        <h1>Sneakers & <span class="streetwear">Streetwear</span></h1>
+        <h2>Ropa 100% original y exclusiva</h2>
+        <span class="botones">
+        <button type="button" ><a href="pages/catalogo.html">Catálogo</a></button>
+        <button type="button"><a href="#comoencargar">Encargar</a></button>
+        </span>
     </header>
+  
 
 <main> 
 <!----------------------------NUEVOS INGRESOS-------------------------------------------->
+<div>
     <section>
-        <h3>Nuevos ingresos</h3>
+        <h3>NUEVOS INGRESOS</h3>
     <article>
         <img src="assets/NewArrivals/1.png" alt="Sp5der Rhinestone negro" height="200" width="200"> 
         <h4>Rhinestone Spider</h4>
         <p>$250</p>
     </article>
-   
+
     <article>
         <img src="assets/NewArrivals/2.png" height="200" width="200"> 
         <h4>Mixed Emotions Zip</h4>
         <p>$210</p>
     </article>
- 
+
     <article>
         <img src="assets/NewArrivals/3.png" height="200" width="200"> 
         <h4>Honey Black Corteiz</h4>
@@ -45,9 +53,24 @@
     <article>
 
     </section>
+<!------------------------------ Como encargar------------------------------------------->
+<section id="comoencargar"> 
+        <h3>¿BUSCÁS ALGO QUE NO ESTÁ ACÁ?<h3>
+        <p> 
+            <em> No te limites a lo que ves en la tienda </em>
+        </p>
+        <p>Mandanos el modelo que tenés en mente y nosotros nos encargamos de encontrarlo, cotizarlo y traerlo para vos.</p>
+        <p>Vos elegís. Nosotros lo conseguimos.</p>
+        <p>El tiempo estimado de entrega es de 15 a 20 días habiles</p>
+        <p>Trabajamos únicamente con proveedores oficiales, garantizando la calidad y originalidad de cada una de nuestras prendas.</p>
+        <a href="https://api.whatsapp.com/send?phone=5491126996868">Whatsapp</a>
 
+
+
+</section>
+<!---------------------------------VideoDrops-------------------------------------------->
     <section>
-        <h3>#VideoDrops</h3>
+        <h3>#VIDEODROPS</h3>
             <p>Acá te dejamos algunos de nuestros videos destacados, visita nuestro canal de <a href="https://www.youtube.com/@rdelhype"> Youtube</a>  Acá! </p>
             <video src="assets/Videos/1.mp4" controls poster="assets/Thumnails/1.jpg"  height="200" width="200" alt="¡¡ VISTIENDO A KAYDY CAIN para su SHOW !! (RH STORE ft. BYBKICKS)"></video>
             <video src="assets/Videos/2.mp4" poster="assets/Thumnails/2.jpg" controls height="200" width="200" alt="Como es el SNEAKERCON de ARGENTINA - Evento DROPNKICKS 3ra edicion"> </video> 
@@ -55,14 +78,24 @@
     </section>
     
 </main>
-
+<!--------------------------------FOOTER------------------------------------------------->
     <footer>
+        <h4>Redes Sociales</h4>
         <ul>
             <li>   
                 <a href="https://www.instagram.com/rdelhype/"> Instagram </a>
             </li>  
+            <li>
+                <a href="https://x.com/RinconDelHype">X (Twitter) </a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/@rdelhype/videos">Youtube </a>  
+            </li>
+            <li>
+                <a href="https://www.tiktok.com/@rdelhype">Tiktok</a>
+            </li>
         </ul>
     </footer>
-    
+</div>
 </body>
 </html>

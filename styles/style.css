@@ -1,0 +1,64 @@
+body{
+    background-color: black;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px; 
+}
+/*--------------NAVBAR-------------*/
+nav{
+    margin:0;
+    padding: 20px;
+    background-color: rgb(7, 7, 7);
+  
+}
+.navbar{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    gap: 15px;
+    justify-content: center
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+}
+/*--------------HERO SECTION-------------*/
+
+.herosection{
+    background-image: url("../assets/Banner/Gemini_Generated_Image_krbegtkrbegtkrbe.png");
+    background-size: cover;
+    padding: 200px;
+    text-align: center;
+}
+header h1{
+    font-size: 95px;
+    text-align: center;
+    margin: 0px
+}
+.streetwear{
+    color: rgb(255, 0, 0);
+}
+header h2{
+    text-align: center;
+    font-size: 30px;
+    margin-top: px;
+}
+header button{
+    zoom: 120%;
+    color: white;
+    background-color: rgb(122, 6, 6);
+    font-size: 15px;
+    font-weight: 500;
+    padding: 6px 6px;
+    border: none;
+    border-radius: 50px;
+a{
+    color: chartreuse;
+}
